@@ -28,7 +28,6 @@ final class Exchange
 
     /**
      * @param non-empty-array<int, string> $currencies
-     *
      * @throws InvalidCurrencyCodeException
      */
     public function rates(string $baseCurrency, array $currencies): Rates

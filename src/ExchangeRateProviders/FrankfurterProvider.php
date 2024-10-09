@@ -38,9 +38,7 @@ final class FrankfurterProvider implements ExchangeRateProvider
 
     /**
      * @param array<int, string> $currencies
-     *
      * @return Collection<string, mixed>
-     *
      * @throws RequestException
      */
     private function makeRequest(string $baseCurrency, array $currencies): Collection
@@ -64,7 +62,6 @@ final class FrankfurterProvider implements ExchangeRateProvider
 
     /**
      * @param Collection<string, mixed> $data
-     *
      * @return CarbonImmutable
      */
     private function getRetreivedAt(Collection $data): CarbonImmutable
